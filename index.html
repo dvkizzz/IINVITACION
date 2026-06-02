@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitación 15 Años | Yarumy y Yaxumy</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,600;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="cover" id="cover">
+    <div class="cover-card">
+      <img class="cover-rose-img" src="FLORES.png" alt="Rosas rojas decorativas" />
+      <p class="cover-small">Invitación especial</p>
+      <h1>Yarumy y Yaxumy</h1>
+      <p class="cover-age">Mis 15 años</p>
+      <button class="open-btn" id="openInvitation" type="button">Abrir invitación</button>
+    </div>
+  </div>
+
+  <main class="page" id="page">
+    <section class="invitation" aria-label="Invitación de 15 años">
+      <div class="gold-side left"></div>
+      <div class="gold-side right"></div>
+
+      <!-- IMÁGENES DECORATIVAS: puedes reemplazar estos archivos dentro de la carpeta imagenes -->
+      <img class="rose-image rose-top-left" src="FLORES.png" alt="" aria-hidden="true" />
+      <img class="rose-image rose-top-right" src="FLORES.png" alt="" aria-hidden="true" />
+      <img class="rose-image rose-bottom-left" src="FLORES.png" alt="" aria-hidden="true" />
+      <img class="rose-image rose-bottom-right" src="FLORES.png" alt="" aria-hidden="true" />
+
+      <img class="butterfly-img b1" src="MARIPOSAS.png" alt="" aria-hidden="true" />
+      <img class="butterfly-img b2" src="MARIPOSAS.png" alt="" aria-hidden="true" />
+      <img class="butterfly-img b3" src="MARIPOSAS.png" alt="" aria-hidden="true" />
+      <img class="butterfly-img b4" src="MARIPOSAS.png" alt="" aria-hidden="true" />
+
+      <div class="content">
+        <p class="intro-text">
+          Hoy no solo celebramos un cumpleaños, celebramos la alegría de ver crecer a dos personas increíbles que
+          comparten mucho más que una fecha especial: comparten una conexión única e incomparable. Queridas gemelas, que
+          estos 15 años estén llenos de sueños cumplidos, risas eternas y momentos inolvidables.
+        </p>
+
+        <h2 class="host-name">Ana Rosa Lara Luquillas</h2>
+
+        <!-- FOTO OPCIONAL: reemplaza imagenes/foto-gemelas.svg por una foto real, por ejemplo imagenes/foto-gemelas.jpg -->
+        <div class="photo-frame">
+          <img src="gemelas.jpeg" alt="Foto de Yarumy y Yaxumy" />
+        </div>
+
+        <p class="invite-text">
+          Tiene el agrado de invitar a Ud. y a la fiesta que ofrecerán por motivo de celebrar los 15 años de sus
+          queridas hijas:
+        </p>
+
+        <h1 class="main-names">Yarumy y Yaxumy</h1>
+
+        <div class="heart-divider" aria-hidden="true">
+          <span></span><strong>♥</strong><span></span>
+        </div>
+
+        <div class="details">
+          <div class="date-box">
+            <p class="day-word">Sábado</p>
+            <p class="big-day">20</p>
+            <p class="month">Junio</p>
+            <p class="year">2026</p>
+          </div>
+
+          <div class="event-info">
+            <h3>Lugar</h3>
+            <p>Belaunde<br>cdra. 17</p>
+            <h3>Hora</h3>
+            <p>8:00 p. m.</p>
+          </div>
+        </div>
+
+        <div class="countdown" aria-label="Cuenta regresiva">
+          <p class="countdown-title">Faltan</p>
+          <div class="countdown-grid">
+            <div><strong id="days">00</strong><span>Días</span></div>
+            <div><strong id="hours">00</strong><span>Horas</span></div>
+            <div><strong id="minutes">00</strong><span>Min</span></div>
+            <div><strong id="seconds">00</strong><span>Seg</span></div>
+          </div>
+        </div>
+
+        <div class="godparents">
+          <h3>Padrinos:</h3>
+          <p>Gandy Cesty V. Orihuela</p>
+          <p>Julio Castro Orihuela</p>
+        </div>
+
+        <!-- VESTIDO: puedes cambiar vestido-quince.svg por una imagen PNG/JPG con transparencia -->
+        <div class="dress-area" aria-hidden="true">
+          <img src="vestido.png" alt="Vestido de quinceañera" />
+        </div>
+
+        <p class="guest-line">
+          Codigo de Vestimenta Formal
+        </p>
+
+        </p>
+
+        <div class="actions">
+          <a class="whatsapp"
+            href="https://wa.me/51994511310?text=Confirmo%20mi%20asistencia%20a%20los%2015%20a%C3%B1os%20de%20Yarumy%20y%20Yaxumy"
+            target="_blank" rel="noopener noreferrer">
+            Confirmar asistencia
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+  <script src="script.js"></script>
+</body>
+
+</html>
